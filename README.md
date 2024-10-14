@@ -2,10 +2,10 @@
 
 Projet JAVA - Bataille
 
-##Description
+## Description
 Ce projet a pour but d'ouvrir un fichier (json/txt/csv) d'en lire son contenue et d'avoir 3 resultats de sortie à savoir : Afficher le contenu du fichier à l'endroit, à l'enveers en fonction des lignes et de manière palindromique.
 
-##Structure du projet
+## Structure du projet
 Le projet est structuré en 6 classes principales :
 
 FileReader : Représente le main, là ou il y a notre emplacement de fichier et les functions à tester.
