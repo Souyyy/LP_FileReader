@@ -20,16 +20,16 @@ public abstract class FileType implements IFileReader {
     public void closeFile() {
     }
 
-    // Méthode abstraite pour afficher le contenu du fichier à l'endroit
+    // Méthode pour afficher le contenu du fichier à l'endroit
     public abstract void printEndroit() throws IOException;
 
-    // Méthode abstraite pour afficher le contenu du fichier à l'envers
+    // Méthode pour afficher le contenu du fichier à l'envers
     public abstract void printEnvers() throws IOException;
 
-    // Méthode abstraite pour afficher le contenu du fichier de manière palindromique
+    // Méthode pour afficher le contenu du fichier de manière palindromique
     public abstract void printPalindrome() throws IOException;
 
-    // Méthode utilitaire pour lire toutes les lignes d'un fichier
+    // Méthode pour lire toutes les lignes d'un fichier
     protected List<String> readAllLines() throws IOException {
         return java.nio.file.Files.readAllLines(file.toPath());
     }
