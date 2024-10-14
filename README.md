@@ -1,6 +1,6 @@
 # LP_FileReader
 
-Projet JAVA - Bataille
+Projet JAVA - FileReader
 
 ## Description
 Ce projet a pour but d'ouvrir un fichier (json/txt/csv) d'en lire son contenue et d'avoir 3 resultats de sortie à savoir : Afficher le contenu du fichier à l'endroit, à l'enveers en fonction des lignes et de manière palindromique.
