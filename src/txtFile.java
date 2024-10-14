@@ -10,7 +10,7 @@ public class txtFile extends FileType {
         super(file); // Appelle le constructeur de la classe parente
     }
 
-    // Affiche le contenu du fichier à l'endroit (ordre des lignes normal)
+    // Affiche le contenu du fichier à l'endroit
     @Override
     public void printEndroit() throws IOException {
         openFile();
@@ -21,7 +21,7 @@ public class txtFile extends FileType {
         closeFile();
     }
 
-    // Affiche le contenu du fichier à l'envers (ordre des lignes inversé)
+    // Affiche le contenu du fichier à l'envers
     @Override
     public void printEnvers() throws IOException {
         openFile();
@@ -33,7 +33,7 @@ public class txtFile extends FileType {
         closeFile();
     }
 
-    // Affiche le contenu du fichier de manière palindromique (inverser les caractères de chaque ligne)
+    // Affiche le contenu du fichier de manière palindromique
     @Override
     public void printPalindrome() throws IOException {
         openFile();
