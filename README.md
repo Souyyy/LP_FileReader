@@ -8,17 +8,17 @@ Ce projet a pour but d'ouvrir un fichier (json/txt/csv) d'en lire son contenue e
 ## Structure du projet
 Le projet est structuré en 6 classes principales :
 
-FileReader : Représente le main, là ou il y a notre emplacement de fichier et les functions à tester.
+`FileReader` : Représente le main, là ou il y a notre emplacement de fichier et les functions à tester.
 
-FileType : Représente la classe abstraite.
+`FileType` : Représente la classe abstraite.
 
-IFileReader : Cette classe correspond à notre interface.
+`IFileReader` : Cette classe correspond à notre interface.
 
-csvFile : La classe enfant permettant d'effectuer les actions pour le fichier de type csv.
+`csvFile` : La classe enfant permettant d'effectuer les actions pour le fichier de type csv.
 
-jsonFile: La classe enfant permettant d'effectuer les actions pour le fichier de type json.
+`jsonFile` : La classe enfant permettant d'effectuer les actions pour le fichier de type json.
 
-txtFile : La classe enfant permettant d'effectuer les actions pour le fichier de type txt.
+`txtFile` : La classe enfant permettant d'effectuer les actions pour le fichier de type txt.
 
 
 ## ATTENTION
