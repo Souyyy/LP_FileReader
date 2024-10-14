@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class FileReader {
     public static void main(String[] args) throws IOException{
+        //Emplacement du fichier à tester
         File file = new File("C:/Users/theod/IdeaProjects/FileReader/src/fichier.txt");
 
 
@@ -23,7 +24,7 @@ public class FileReader {
             }
 
             // Exemple d'utilisation des méthodes
-            System.out.println("Contenu à l'endroit:");
+            System.out.println("\nContenu à l'endroit:");
             fileType.printEndroit(); // Affiche le contenu à l'endroit
 
             System.out.println("\nContenu à l'envers:");
